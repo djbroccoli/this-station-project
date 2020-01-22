@@ -1,0 +1,169 @@
+<style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+@charset "UTF-8";
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: 	#000000;
+  }
+
+  em {
+    font-weight: 400i;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+   p > a {
+    text-decoration: underline;
+    color: pink;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Marcellus', serif;
+    margin: 21px 0;
+
+  }
+
+  h1 {
+    font-size: 24.5px;
+    line-height: 31.5px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  h3 {
+    font-size: 17.5px;
+  }
+
+  h4 {
+    font-size: 10px
+  }
+
+  p, ol, ul, dl, blockquote {
+    margin: 21px 0;
+    line-height: 2;
+    font-size: 16px;
+    text-indent: 50px;
+    //font-family: 'Marcellus', serif;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  .mainWriting > h4 {
+    color: white;
+  }
+
+  nav ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  blockquote {
+    padding: 21px;
+    font-size: 15.75px;
+  }
+  blockquote:before, blockquote:after {
+    content: "";
+    width: 50%;
+    display: block;
+    border-bottom: 1px solid #eee;
+    margin: auto;
+  }
+  audio {
+    position: fixed;
+  }
+
+  table {
+    margin: 21px auto;
+  }
+
+  thead {
+    font-family: "Caudex", serif;
+  }
+
+  tr {
+    border-bottom: 1px solid #eee;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .flex-container > .mainWriting {
+    width: 60%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: black;
+
+  }
+  .mainWriting p {
+    text-indent: 2em;
+    color: white;
+    line-height: 2;
+
+  }
+  .mainWriting p b {
+    color: pink;
+  }
+
+
+  .audioText {
+    color: pink;
+
+  }
+
+  .flex-container > .photos {
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+
+
+  }
+  .photos img {
+    width: 100%;
+    image-orientation: from-image;
+
+  }
+  .blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  color: green;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.pause {
+  width: 30px;
+  height: 30px;
+  border: 30px solid blue;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+
+}
+
+
+</style>
